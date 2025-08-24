@@ -1,5 +1,5 @@
-using agent;
-using agent.Plugins;
+using chat_agent;
+using chat_agent.Plugins;
 using Microsoft.SemanticKernel;
 using Microsoft.SemanticKernel.Connectors.Google;
 

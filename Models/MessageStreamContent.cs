@@ -1,6 +1,6 @@
 using System;
 
-namespace agent.Models;
+namespace chat_agent.Models;
 
 public class MessageStreamContent
 {

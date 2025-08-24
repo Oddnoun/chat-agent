@@ -1,4 +1,4 @@
-using agent.Models;
+using chat_agent.Models;
 using Microsoft.AspNetCore.SignalR;
 using Microsoft.SemanticKernel;
 using Microsoft.SemanticKernel.ChatCompletion;
@@ -6,7 +6,7 @@ using Microsoft.SemanticKernel.Connectors.Google;
 using System.Collections.Concurrent;
 using System.Text;
 
-namespace agent;
+namespace chat_agent;
 
 public class ChatHub(Kernel kernel, GeminiPromptExecutionSettings executionSettings) : Hub
 {

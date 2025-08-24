@@ -1,8 +1,8 @@
 using System.ComponentModel;
-using agent.Models;
+using chat_agent.Models;
 using Microsoft.SemanticKernel;
 
-namespace agent.Plugins;
+namespace chat_agent.Plugins;
 
 public class LightsPlugin
 {
